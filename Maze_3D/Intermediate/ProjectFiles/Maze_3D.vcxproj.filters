@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Maze_3D.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{DE8518E9-66F6-4A2A-A67F-2BD59104BEA9}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Maze_3D.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Maze_3DEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{CEC8E4E9-1490-406C-9ED4-1EE2F20D8E40}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Maze_3D">
+			<UniqueIdentifier>{AFC9683F-A977-4ED6-874A-036B0A74DB96}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\Maze_3D\Elevator.cpp">
+			<Filter>Source\Maze_3D</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Maze_3D\Elevator.h">
+			<Filter>Source\Maze_3D</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Maze_3D\Maze.cpp">
+			<Filter>Source\Maze_3D</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Maze_3D\Maze.h">
+			<Filter>Source\Maze_3D</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Maze_3D\MazePlayer.cpp">
+			<Filter>Source\Maze_3D</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Maze_3D\MazePlayer.h">
+			<Filter>Source\Maze_3D</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Maze_3D\MazeSaveGame.cpp">
+			<Filter>Source\Maze_3D</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Maze_3D\MazeSaveGame.h">
+			<Filter>Source\Maze_3D</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\Maze_3D\Maze_3D.Build.cs">
+			<Filter>Source\Maze_3D</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Maze_3D\Maze_3D.cpp">
+			<Filter>Source\Maze_3D</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Maze_3D\Maze_3D.h">
+			<Filter>Source\Maze_3D</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Maze_3D\Maze_3DGameModeBase.cpp">
+			<Filter>Source\Maze_3D</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Maze_3D\Maze_3DGameModeBase.h">
+			<Filter>Source\Maze_3D</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Maze_3D\Maze_3D_GameInstance.cpp">
+			<Filter>Source\Maze_3D</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Maze_3D\Maze_3D_GameInstance.h">
+			<Filter>Source\Maze_3D</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Maze_3D\Maze_3D_GameMode.cpp">
+			<Filter>Source\Maze_3D</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Maze_3D\Maze_3D_GameMode.h">
+			<Filter>Source\Maze_3D</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Maze_3D\Maze_3D_MenuMode.cpp">
+			<Filter>Source\Maze_3D</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Maze_3D\Maze_3D_MenuMode.h">
+			<Filter>Source\Maze_3D</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Maze_3D\Tile.cpp">
+			<Filter>Source\Maze_3D</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Maze_3D\Tile.h">
+			<Filter>Source\Maze_3D</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

@@ -1,0 +1,659 @@
+﻿Log file open, 08/25/18 13:31:17
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Maze_3D
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.374355
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.265s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4233996
+LogInit: Engine Version: 4.20.1-4233996+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Jul 26 2018 10:07:30
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.08.25-20.31.18:255][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.25-20.31.18:255][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.08.25-20.31.18:264][  0]LogHAL: Display: Platform has ~ 16 GB [17136615424 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.08.25-20.31.18:264][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.08.25-20.31.18:264][  0]LogInit: Going up to parent DeviceProfile []
+[2018.08.25-20.31.18:264][  0]LogInit: Computer: IRONSIDE
+[2018.08.25-20.31.18:264][  0]LogInit: User: User
+[2018.08.25-20.31.18:264][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.08.25-20.31.18:264][  0]LogInit: High frequency timer resolution =3.328126 MHz
+[2018.08.25-20.31.18:265][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.08.25-20.31.18:265][  0]LogMemory: Platform Memory Stats for Windows
+[2018.08.25-20.31.18:265][  0]LogMemory: Process Physical Memory: 100.91 MB used, 100.91 MB peak
+[2018.08.25-20.31.18:265][  0]LogMemory: Process Virtual Memory: 89.39 MB used, 89.39 MB peak
+[2018.08.25-20.31.18:265][  0]LogMemory: Physical Memory: 8923.96 MB used,  7418.79 MB free, 16342.75 MB total
+[2018.08.25-20.31.18:265][  0]LogMemory: Virtual Memory: 4638.79 MB used,  7418.79 MB free, 134217728.00 MB total
+[2018.08.25-20.31.18:444][  0]LogInit: Using OS detected language (en-US).
+[2018.08.25-20.31.18:444][  0]LogInit: Using OS detected locale (en-US).
+[2018.08.25-20.31.18:445][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.08.25-20.31.18:904][  0]LogStreaming: Display: Took  0.459s to InitEngineTextLocalization.
+[2018.08.25-20.31.18:904][  0]LogInit: Setting process to per monitor DPI aware
+[2018.08.25-20.31.19:043][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.08.25-20.31.19:043][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.08.25-20.31.19:328][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.25-20.31.19:328][  0]LogD3D11RHI: D3D11 adapters:
+[2018.08.25-20.31.19:411][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.08.25-20.31.19:411][  0]LogD3D11RHI:       6052/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.08.25-20.31.19:423][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.08.25-20.31.19:423][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.08.25-20.31.19:423][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.08.25-20.31.19:430][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.08.25-20.31.19:430][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.08.25-20.31.19:430][  0]LogWindows: EnumDisplayDevices:
+[2018.08.25-20.31.19:430][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2018.08.25-20.31.19:430][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2018.08.25-20.31.19:430][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.08.25-20.31.19:430][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.08.25-20.31.19:430][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.08.25-20.31.19:431][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.08.25-20.31.19:431][  0]LogD3D11RHI:   Driver Version: 398.36 (internal:24.21.13.9836, unified:398.36)
+[2018.08.25-20.31.19:431][  0]LogD3D11RHI:      Driver Date: 6-24-2018
+[2018.08.25-20.31.19:431][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.08.25-20.31.19:480][  0]LogD3D11RHI: Async texture creation enabled
+[2018.08.25-20.31.19:499][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.08.25-20.31.19:551][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Intermediate/Shaders/WorkingDirectory/2532/).
+[2018.08.25-20.31.19:551][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/User/AppData/Local/Temp/UnrealShaderWorkingDir/6EC5FFFF4CA8E05D9B5D03B59616589C/'.
+[2018.08.25-20.31.25:845][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.08.25-20.31.25:861][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.08.25-20.31.25:878][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.08.25-20.31.25:895][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.08.25-20.31.25:912][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.08.25-20.31.25:928][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.08.25-20.31.25:946][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.08.25-20.31.25:963][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.08.25-20.31.25:973][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.08.25-20.31.26:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-20.31.26:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-20.31.26:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-20.31.26:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-20.31.26:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-20.31.26:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-20.31.26:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-20.31.26:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-20.31.26:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-20.31.26:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-20.31.26:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-20.31.26:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-20.31.26:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-20.31.26:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-20.31.26:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-20.31.26:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-20.31.26:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-20.31.26:046][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.08.25-20.31.26:053][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.08.25-20.31.26:125][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.25-20.31.26:125][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.08.25-20.31.26:152][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.25-20.31.26:152][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.08.25-20.31.26:168][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.08.25-20.31.26:185][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.08.25-20.31.26:201][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.08.25-20.31.26:218][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.08.25-20.31.26:230][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.08.25-20.31.26:231][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.08.25-20.31.26:547][  0]LogXGEController: Cleaning working directory: C:/Users/User/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.08.25-20.31.26:547][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.08.25-20.31.26:547][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.08.25-20.31.26:547][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.08.25-20.31.27:178][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.08.25-20.31.27:501][  0]LogDerivedDataCache: Loaded boot cache 0.32s 71MB C:/Users/User/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.08.25-20.31.27:502][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/User/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.08.25-20.31.27:502][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../My Files/The Documents/Unreal Projects/Maze_3D/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.08.25-20.31.27:502][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.08.25-20.31.27:502][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../My Files/The Documents/Unreal Projects/Maze_3D/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.08.25-20.31.27:502][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.08.25-20.31.27:562][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.08.25-20.31.27:575][  0]LogDerivedDataCache: Using Local data cache path C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.08.25-20.31.27:575][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.08.25-20.31.27:575][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.08.25-20.31.27:596][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.08.25-20.31.27:597][  0]LogSlate: Using FreeType 2.6.0
+[2018.08.25-20.31.27:627][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.08.25-20.31.27:784][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
+[2018.08.25-20.31.28:095][  0]LogInit: Selected Device Profile: [Windows]
+[2018.08.25-20.31.28:560][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.08.25-20.31.28:575][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.08.25-20.31.28:575][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.08.25-20.31.28:575][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.08.25-20.31.28:575][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.08.25-20.31.28:599][  0]LogNetVersion: Maze_3D 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1160223804)
+[2018.08.25-20.31.29:804][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.138195 seconds
+[2018.08.25-20.31.29:810][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.08.25-20.31.29:810][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.08.25-20.31.29:810][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.08.25-20.31.31:756][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.08.25-20.31.31:776][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.08.25-20.31.32:398][  0]SourceControl: Source control is disabled
+[2018.08.25-20.31.32:398][  0]SourceControl: Source control is disabled
+[2018.08.25-20.31.32:408][  0]SourceControl: Source control is disabled
+[2018.08.25-20.31.32:413][  0]SourceControl: Source control is disabled
+[2018.08.25-20.31.32:848][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.08.25-20.31.32:936][  0]LogOcInput: OculusInput pre-init called
+[2018.08.25-20.31.33:025][  0]LogEngine: Initializing Engine...
+[2018.08.25-20.31.33:026][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.08.25-20.31.33:027][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.25-20.31.33:027][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.25-20.31.33:027][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.25-20.31.33:027][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.25-20.31.33:312][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.08.25-20.31.33:327][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.08.25-20.31.33:341][  0]LogInit: XAudio2 using 'VX2370 SERIES (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.25-20.31.33:358][  0]LogInit: FAudioDevice initialized.
+[2018.08.25-20.31.33:358][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.08.25-20.31.33:486][  0]LogDerivedDataCache: Saved boot cache 0.13s 71MB C:/Users/User/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.08.25-20.31.33:493][  0]LogInit: Texture streaming: Enabled
+[2018.08.25-20.31.33:571][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.08.25-20.31.33:606][  0]LogInit: Transaction tracking system initialized
+[2018.08.25-20.31.33:653][  0]BlueprintLog: New page: Editor Load
+[2018.08.25-20.31.33:914][  0]LocalizationService: Localization service is disabled
+[2018.08.25-20.31.35:699][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.08.25-20.31.35:699][  0]LogCook: Display: Mobile HDR setting 1
+[2018.08.25-20.31.35:699][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.08.25-20.31.35:700][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.08.25-20.31.35:700][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.08.25-20.31.35:700][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.08.25-20.31.35:700][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.08.25-20.31.36:122][  0]LogFileCache: Scanning file cache for directory 'D:/My Files/The Documents/Unreal Projects/Maze_3D/Content/' took 0.02s
+[2018.08.25-20.31.36:122][  0]SourceControl: Source control is disabled
+[2018.08.25-20.31.36:122][  0]Cmd: MAP LOAD FILE="../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.25-20.31.36:153][  0]LightingResults: New page: Lighting Build
+[2018.08.25-20.31.36:160][  0]MapCheck: New page: Map Check
+[2018.08.25-20.31.36:160][  0]LightingResults: New page: Lighting Build
+[2018.08.25-20.31.36:222][  0]LogAIModule: Creating AISystem for world MainMenu
+[2018.08.25-20.31.36:223][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.25-20.31.36:245][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.25-20.31.36:308][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.041ms to complete.
+[2018.08.25-20.31.36:308][  0]LogFileHelpers: Loading map 'MainMenu' took 0.186
+[2018.08.25-20.31.36:438][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-20.31.36:444][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-20.31.36:452][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-20.31.36:458][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.08.25-20.31.36:468][  0]LogCollectionManager: Loaded 0 collections in 0.001081 seconds
+[2018.08.25-20.31.36:521][  0]LogFileCache: Scanning file cache for directory 'D:/My Files/The Documents/Unreal Projects/Maze_3D/Saved/Collections/' took 0.01s
+[2018.08.25-20.31.36:521][  0]LogFileCache: Scanning file cache for directory 'D:/My Files/The Documents/Unreal Projects/Maze_3D/Content/Developers/User/Collections/' took 0.01s
+[2018.08.25-20.31.36:521][  0]LogFileCache: Scanning file cache for directory 'D:/My Files/The Documents/Unreal Projects/Maze_3D/Content/Collections/' took 0.01s
+[2018.08.25-20.31.36:521][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.08.25-20.31.36:537][  0]LogContentBrowser: Native class hierarchy populated in 0.0161 seconds. Added 2580 classes and 605 folders.
+[2018.08.25-20.31.36:546][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.08.25-20.31.36:887][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.08.25-20.31.36:926][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.08.25-20.31.37:016][  0]LogSlate: Took 0.023355 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.08.25-20.31.37:028][  0]LogSlate: Took 0.010546 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.08.25-20.31.37:037][  0]LogSlate: Took 0.004039 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.08.25-20.31.37:143][  0]LogRenderer: Reallocating scene render targets to support 1196x608 Format 10 NumSamples 1 (Frame:1).
+[2018.08.25-20.31.37:316][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.08.25-20.31.37:316][  0]LogLoad: (Engine Initialization) Total time: 25.00 seconds
+[2018.08.25-20.31.37:316][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.08.25-20.31.37:351][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.08.25-20.31.37:403][  0]LogRenderer: Reallocating scene render targets to support 1196x624 Format 10 NumSamples 1 (Frame:3).
+[2018.08.25-20.31.37:403][  0]LogSlate: Took 0.000660 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.25-20.31.37:422][  1]LogAssetRegistry: Asset discovery search completed in 9.6605 seconds
+[2018.08.25-20.31.37:424][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.08.25-20.31.37:424][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000064 seconds (updated 0 objects)
+[2018.08.25-20.49.14:161][795]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-20.49.43:322][125]LogSlate: Took 0.000347 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.08.25-20.49.43:409][125]LogSlate: Took 0.016264 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.08.25-20.49.55:235][522]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Objects/Elevator.Elevator
+[2018.08.25-20.49.55:920][522]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.08.25-20.49.56:893][522]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2018.08.25-20.50.14:025][389]LogRenderer: Reallocating scene render targets to support 1196x900 Format 10 NumSamples 1 (Frame:1).
+[2018.08.25-20.50.14:966][481]LogSlate: Took 0.011134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.08.25-20.50.16:072][582]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Objects/Elevator" FILE="../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Content/Blueprints/Objects/Elevator.uasset" SILENT=true
+[2018.08.25-20.50.16:083][582]LogSavePackage: Moving '../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Saved/ElevatorBB901AE4436AD4776C0B0D87A3F2AFFE.tmp' to '../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Content/Blueprints/Objects/Elevator.uasset'
+[2018.08.25-22.11.17:484][266]LogAIModule: Creating AISystem for world Maze
+[2018.08.25-22.11.17:497][266]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Maze.Maze
+[2018.08.25-22.11.17:554][266]Cmd: MAP LOAD FILE="../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Content/Maps/Maze.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.25-22.11.17:554][266]LightingResults: New page: Lighting Build
+[2018.08.25-22.11.17:555][266]LoadErrors: New page: Loading map: Maze.umap
+[2018.08.25-22.11.17:556][266]MapCheck: New page: Map Check
+[2018.08.25-22.11.17:556][266]LightingResults: New page: Lighting Build
+[2018.08.25-22.11.17:600][266]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.25-22.11.17:652][266]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.25-22.11.17:731][266]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 78.564ms to complete.
+[2018.08.25-22.11.17:742][266]LogFileHelpers: Loading map 'Maze' took 0.192
+[2018.08.25-22.11.25:953][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-22.11.42:765][974]Cmd: DELETE
+[2018.08.25-22.11.42:765][974]Cmd: ACTOR DELETE
+[2018.08.25-22.11.42:769][974]LogEditorActor: Deleted Actor: Tile_C
+[2018.08.25-22.11.42:816][974]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2018.08.25-22.21.17:349][834]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Maze" FILE="../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Saved/Autosaves/Game/Maps/Maze_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.08.25-22.21.17:453][834]LogSavePackage: Moving '../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Saved/Maze_Auto11B870B62419976AF764BF2B3C9FE399E.tmp' to '../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Saved/Autosaves/Game/Maps/Maze_Auto1.umap'
+[2018.08.25-22.21.17:477][834]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maze' took 0.175
+[2018.08.25-22.21.17:477][834]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.175
+[2018.08.25-22.37.01:279][648]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-22.37.04:475][946]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-22.37.19:006][611]Cmd: DELETE
+[2018.08.25-22.37.19:006][611]Cmd: ACTOR DELETE
+[2018.08.25-22.37.19:009][611]LogEditorActor: Deleted Actor: Tile_C
+[2018.08.25-22.37.19:041][611]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2018.08.25-22.37.20:182][739]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-22.37.20:986][829]Cmd: EDIT COPY
+[2018.08.25-22.37.21:325][869]Cmd: EDIT PASTE
+[2018.08.25-22.37.24:883][265]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-22.37.42:051][245]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-22.38.08:702][221]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-22.38.17:852][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-22.38.39:593][712]Cmd: SELECT NONE
+[2018.08.25-22.38.49:302][873]LogEditorViewport: Clicking on Actor (LMB): Tile_C (Tile3)
+[2018.08.25-22.38.56:802][681]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-22.38.57:723][791]Cmd: EDIT COPY
+[2018.08.25-22.38.58:273][855]Cmd: EDIT PASTE
+[2018.08.25-22.39.01:038][156]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-22.39.12:081][392]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-22.39.15:039][725]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2018.08.25-22.39.15:089][725]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.08.25-22.39.26:401][ 55]LogEditorViewport: Clicking on Actor (LMB): Tile_C (Tile4)
+[2018.08.25-22.40.03:816][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Maze" FILE="../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Saved/Autosaves/Game/Maps/Maze_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.08.25-22.40.03:861][624]LogSavePackage: Moving '../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Saved/Maze_Auto24683193642373195A570BC8888A1A003.tmp' to '../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Saved/Autosaves/Game/Maps/Maze_Auto2.umap'
+[2018.08.25-22.40.03:894][624]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Maze' took 0.114
+[2018.08.25-22.40.03:894][624]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.114
+[2018.08.25-22.41.05:561][896]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-22.46.35:205][184]LogEditorViewport: Clicking on Actor (LMB): Tile_C (Tile4)
+[2018.08.25-22.47.31:711][574]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-22.47.34:111][823]LogEditorActor: Deleted Actor: Tile_C
+[2018.08.25-22.47.34:112][823]LogEditorActor: Deleted Actor: Tile_C
+[2018.08.25-22.47.34:112][823]LogEditorActor: Deleted Actor: Tile_C
+[2018.08.25-22.47.34:113][823]LogEditorActor: Deleted Actor: Tile_C
+[2018.08.25-22.47.34:137][823]LogEditorActor: Deleted 4 Actors (0.029 secs)
+[2018.08.25-22.47.37:058][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Maze" FILE="../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Content/Maps/Maze.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.08.25-22.47.37:117][154]LogSavePackage: Moving '../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Saved/MazeCC4EFEED47BA16297BA5488CF02BFE2C.tmp' to '../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Content/Maps/Maze.umap'
+[2018.08.25-22.47.37:173][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Maze_BuiltData" FILE="../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Content/Maps/Maze_BuiltData.uasset" SILENT=true
+[2018.08.25-22.47.37:189][154]LogSavePackage: Moving '../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Saved/Maze_BuiltData3A98E09845A94D90CC37B7BE878371DE.tmp' to '../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Content/Maps/Maze_BuiltData.uasset'
+[2018.08.25-22.47.41:850][623]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-22.47.42:664][708]LogAIModule: Creating AISystem for world MainMenu
+[2018.08.25-22.47.42:667][708]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
+[2018.08.25-22.47.42:691][708]Cmd: MAP LOAD FILE="../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.08.25-22.47.42:691][708]LightingResults: New page: Lighting Build
+[2018.08.25-22.47.42:691][708]LoadErrors: New page: Loading map: MainMenu.umap
+[2018.08.25-22.47.42:692][708]MapCheck: New page: Map Check
+[2018.08.25-22.47.42:692][708]LightingResults: New page: Lighting Build
+[2018.08.25-22.47.42:723][708]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.08.25-22.47.42:770][708]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.08.25-22.47.42:842][708]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 71.702ms to complete.
+[2018.08.25-22.47.42:842][708]LogFileHelpers: Loading map 'MainMenu' took 0.152
+[2018.08.25-22.47.43:931][818]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-22.47.44:073][829]Candidate modules for hot reload:
+[2018.08.25-22.47.44:073][829]  Maze_3D
+[2018.08.25-22.47.44:073][829]Launching UnrealBuildTool... [D:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Maze_3D,2736 Win64 Development -TargetType=Editor -Project="../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Maze_3D.uproject" -canskiplink "D:/My Files/The Documents/Unreal Projects/Maze_3D/Maze_3D.uproject" ]
+[2018.08.25-22.47.46:612][829]Warning: Starting HotReload took  2.6s.
+[2018.08.25-22.49.28:485][116]CompilerResultsLog: New page: Compilation - Aug 25, 2018, 8:49:28 AM
+[2018.08.25-22.49.28:485][116]CompilerResultsLog: Compiling game modules for hot reload
+[2018.08.25-22.49.28:485][116]CompilerResultsLog: Parsing headers for Maze_3DEditor
+[2018.08.25-22.49.28:485][116]CompilerResultsLog:   Running UnrealHeaderTool "D:\My Files\The Documents\Unreal Projects\Maze_3D\Maze_3D.uproject" "D:\My Files\The Documents\Unreal Projects\Maze_3D\Intermediate\Build\Win64\Maze_3DEditor\Development\Maze_3DEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.08.25-22.49.28:485][116]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename D:\My Files\The Documents\Unreal Projects\Maze_3D\Source\Maze_3D\Maze.h!
+[2018.08.25-22.49.28:485][116]CompilerResultsLog: Reflection code generated for Maze_3DEditor in 11.5618654 seconds
+[2018.08.25-22.49.28:485][116]CompilerResultsLog: Building 7 actions with 8 processes...
+[2018.08.25-22.49.28:485][116]CompilerResultsLog:   Maze.cpp
+[2018.08.25-22.49.28:485][116]CompilerResultsLog:    D:\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(1873) : error C2248: 'ATile::ATile': cannot access private member declared in class 'ATile'
+[2018.08.25-22.49.28:485][116]CompilerResultsLog:   d:\my files\the documents\unreal projects\maze_3d\source\maze_3d\Tile.h(12): note: see declaration of 'ATile::ATile'
+[2018.08.25-22.49.28:485][116]CompilerResultsLog:   d:\my files\the documents\unreal projects\maze_3d\source\maze_3d\Maze.h(15): note: see declaration of 'ATile'
+[2018.08.25-22.49.28:485][116]CompilerResultsLog:   D:\My Files\The Documents\Unreal Projects\Maze_3D\Source\Maze_3D\Maze.cpp(112): note: see reference to function template instantiation 'void TArray<ATile,FDefaultAllocator>::EmplaceAt<ATile&>(int32,ATile &)' being compiled
+[2018.08.25-22.49.28:485][116]CompilerResultsLog:   D:\My Files\The Documents\Unreal Projects\Maze_3D\Source\Maze_3D\Maze.cpp(112): note: see reference to function template instantiation 'void TArray<ATile,FDefaultAllocator>::EmplaceAt<ATile&>(int32,ATile &)' being compiled
+[2018.08.25-22.49.28:485][116]CompilerResultsLog:    D:\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(1873) : error C2665: 'ATile::operator new': none of the 2 overloads could convert all the argument types
+[2018.08.25-22.49.28:486][116]CompilerResultsLog:   d:\my files\the documents\unreal projects\maze_3d\source\maze_3d\Tile.h(12): note: could be 'void *ATile::operator new(const std::size_t,EInternal *)'
+[2018.08.25-22.49.28:486][116]CompilerResultsLog:   d:\my files\the documents\unreal projects\maze_3d\source\maze_3d\Tile.h(12): note: or       'void *ATile::operator new(const std::size_t,EInternal,UObject *,FName,EObjectFlags)'
+[2018.08.25-22.49.28:486][116]CompilerResultsLog:   D:\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(1873): note: while trying to match the argument list '(std::size_t, ATile *)'
+[2018.08.25-22.49.28:486][116]CompilerResultsLog:   Maze_3D.init.gen.cpp
+[2018.08.25-22.49.28:486][116]CompilerResultsLog:   Maze_3D_GameMode.cpp
+[2018.08.25-22.49.28:486][116]CompilerResultsLog:   Maze_3D_GameMode.gen.cpp
+[2018.08.25-22.49.28:486][116]CompilerResultsLog:   Maze.gen.cpp
+[2018.08.25-22.49.28:486][116]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\My Files\The Documents\Unreal Projects\Maze_3D\Binaries\Win64\UE4Editor-Maze_3D-2736.dll
+[2018.08.25-22.49.28:486][116]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.08.25-22.49.28:486][116]CompilerResultsLog: Total build time: 98.52 seconds (Parallel executor: 0.00 seconds)
+[2018.08.25-22.49.28:486][116]LogMainFrame: MainFrame: Module compiling took 104.429 seconds
+[2018.08.25-22.49.28:486][116]Warning: HotReload failed, recompile failed
+[2018.08.25-22.50.15:371][435]LogSlate: Took 0.034832 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.08.25-22.51.14:715][329]Candidate modules for hot reload:
+[2018.08.25-22.51.14:715][329]  Maze_3D
+[2018.08.25-22.51.14:715][329]Launching UnrealBuildTool... [D:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Maze_3D,1887 Win64 Development -TargetType=Editor -Project="../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Maze_3D.uproject" -canskiplink "D:/My Files/The Documents/Unreal Projects/Maze_3D/Maze_3D.uproject" ]
+[2018.08.25-22.51.17:530][329]Warning: Starting HotReload took  2.8s.
+[2018.08.25-22.51.21:339][768]CompilerResultsLog: New page: Compilation - Aug 25, 2018, 8:51:21 AM
+[2018.08.25-22.51.21:339][768]CompilerResultsLog: Compiling game modules for hot reload
+[2018.08.25-22.51.21:340][768]CompilerResultsLog: Building 3 actions with 8 processes...
+[2018.08.25-22.51.21:340][768]CompilerResultsLog:   Maze.cpp
+[2018.08.25-22.51.21:340][768]CompilerResultsLog:    D:\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(1873) : error C2248: 'ATile::ATile': cannot access private member declared in class 'ATile'
+[2018.08.25-22.51.21:340][768]CompilerResultsLog:   d:\my files\the documents\unreal projects\maze_3d\source\maze_3d\Tile.h(12): note: see declaration of 'ATile::ATile'
+[2018.08.25-22.51.21:340][768]CompilerResultsLog:   d:\my files\the documents\unreal projects\maze_3d\source\maze_3d\Maze.h(15): note: see declaration of 'ATile'
+[2018.08.25-22.51.21:341][768]CompilerResultsLog:   D:\My Files\The Documents\Unreal Projects\Maze_3D\Source\Maze_3D\Maze.cpp(112): note: see reference to function template instantiation 'void TArray<ATile,FDefaultAllocator>::EmplaceAt<ATile&>(int32,ATile &)' being compiled
+[2018.08.25-22.51.21:341][768]CompilerResultsLog:   D:\My Files\The Documents\Unreal Projects\Maze_3D\Source\Maze_3D\Maze.cpp(112): note: see reference to function template instantiation 'void TArray<ATile,FDefaultAllocator>::EmplaceAt<ATile&>(int32,ATile &)' being compiled
+[2018.08.25-22.51.21:341][768]CompilerResultsLog:    D:\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(1873) : error C2665: 'ATile::operator new': none of the 2 overloads could convert all the argument types
+[2018.08.25-22.51.21:342][768]CompilerResultsLog:   d:\my files\the documents\unreal projects\maze_3d\source\maze_3d\Tile.h(12): note: could be 'void *ATile::operator new(const std::size_t,EInternal *)'
+[2018.08.25-22.51.21:342][768]CompilerResultsLog:   d:\my files\the documents\unreal projects\maze_3d\source\maze_3d\Tile.h(12): note: or       'void *ATile::operator new(const std::size_t,EInternal,UObject *,FName,EObjectFlags)'
+[2018.08.25-22.51.21:342][768]CompilerResultsLog:   D:\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(1873): note: while trying to match the argument list '(std::size_t, ATile *)'
+[2018.08.25-22.51.21:343][768]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\My Files\The Documents\Unreal Projects\Maze_3D\Binaries\Win64\UE4Editor-Maze_3D-1887.dll
+[2018.08.25-22.51.21:343][768]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.08.25-22.51.21:343][768]CompilerResultsLog: Total build time: 2.67 seconds (Parallel executor: 0.00 seconds)
+[2018.08.25-22.51.21:343][768]LogMainFrame: MainFrame: Module compiling took 6.646 seconds
+[2018.08.25-22.51.21:343][768]Warning: HotReload failed, recompile failed
+[2018.08.25-22.58.15:019][336]Candidate modules for hot reload:
+[2018.08.25-22.58.15:019][336]  Maze_3D
+[2018.08.25-22.58.15:019][336]Launching UnrealBuildTool... [D:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Maze_3D,203 Win64 Development -TargetType=Editor -Project="../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Maze_3D.uproject" -canskiplink "D:/My Files/The Documents/Unreal Projects/Maze_3D/Maze_3D.uproject" ]
+[2018.08.25-22.58.17:967][336]Warning: Starting HotReload took  3.0s.
+[2018.08.25-22.58.22:282][851]CompilerResultsLog: New page: Compilation - Aug 25, 2018, 8:58:22 AM
+[2018.08.25-22.58.22:282][851]CompilerResultsLog: Compiling game modules for hot reload
+[2018.08.25-22.58.22:282][851]CompilerResultsLog: Building 3 actions with 8 processes...
+[2018.08.25-22.58.22:283][851]CompilerResultsLog:   Maze.cpp
+[2018.08.25-22.58.22:283][851]CompilerResultsLog:    D:\My Files\The Documents\Unreal Projects\Maze_3D\Source\Maze_3D\Maze.cpp(111) : error C2660: 'TArray<ATile,FDefaultAllocator>::EmplaceAt': function does not take 1 arguments
+[2018.08.25-22.58.22:283][851]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\My Files\The Documents\Unreal Projects\Maze_3D\Binaries\Win64\UE4Editor-Maze_3D-203.dll
+[2018.08.25-22.58.22:283][851]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.08.25-22.58.22:283][851]CompilerResultsLog: Total build time: 2.67 seconds (Parallel executor: 0.00 seconds)
+[2018.08.25-22.58.22:284][851]LogMainFrame: MainFrame: Module compiling took 7.279 seconds
+[2018.08.25-22.58.22:284][851]Warning: HotReload failed, recompile failed
+[2018.08.25-22.58.38:618][787]LogSlate: Window 'Message Log' being destroyed
+[2018.08.25-22.58.38:628][787]LogSlate: Window 'Message Log' being destroyed
+[2018.08.25-22.59.17:412][702]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-22.59.17:704][702]Candidate modules for hot reload:
+[2018.08.25-22.59.17:704][702]  Maze_3D
+[2018.08.25-22.59.17:704][702]Launching UnrealBuildTool... [D:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Maze_3D,3643 Win64 Development -TargetType=Editor -Project="../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Maze_3D.uproject" -canskiplink "D:/My Files/The Documents/Unreal Projects/Maze_3D/Maze_3D.uproject" ]
+[2018.08.25-22.59.20:440][702]Warning: Starting HotReload took  2.8s.
+[2018.08.25-22.59.25:647][324]CompilerResultsLog: New page: Compilation - Aug 25, 2018, 8:59:25 AM
+[2018.08.25-22.59.25:647][324]CompilerResultsLog: Compiling game modules for hot reload
+[2018.08.25-22.59.25:647][324]CompilerResultsLog: Building 3 actions with 8 processes...
+[2018.08.25-22.59.25:647][324]CompilerResultsLog:   Maze.cpp
+[2018.08.25-22.59.25:648][324]CompilerResultsLog:    D:\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(1873) : error C2248: 'ATile::ATile': cannot access private member declared in class 'ATile'
+[2018.08.25-22.59.25:648][324]CompilerResultsLog:   d:\my files\the documents\unreal projects\maze_3d\source\maze_3d\Tile.h(12): note: see declaration of 'ATile::ATile'
+[2018.08.25-22.59.25:648][324]CompilerResultsLog:   d:\my files\the documents\unreal projects\maze_3d\source\maze_3d\Maze.h(15): note: see declaration of 'ATile'
+[2018.08.25-22.59.25:648][324]CompilerResultsLog:   D:\My Files\The Documents\Unreal Projects\Maze_3D\Source\Maze_3D\Maze.cpp(111): note: see reference to function template instantiation 'void TArray<ATile,FDefaultAllocator>::EmplaceAt<ATile>(int32,ATile &&)' being compiled
+[2018.08.25-22.59.25:649][324]CompilerResultsLog:   D:\My Files\The Documents\Unreal Projects\Maze_3D\Source\Maze_3D\Maze.cpp(111): note: see reference to function template instantiation 'void TArray<ATile,FDefaultAllocator>::EmplaceAt<ATile>(int32,ATile &&)' being compiled
+[2018.08.25-22.59.25:649][324]CompilerResultsLog:    D:\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(1873) : error C2665: 'ATile::operator new': none of the 2 overloads could convert all the argument types
+[2018.08.25-22.59.25:649][324]CompilerResultsLog:   d:\my files\the documents\unreal projects\maze_3d\source\maze_3d\Tile.h(12): note: could be 'void *ATile::operator new(const std::size_t,EInternal *)'
+[2018.08.25-22.59.25:650][324]CompilerResultsLog:   d:\my files\the documents\unreal projects\maze_3d\source\maze_3d\Tile.h(12): note: or       'void *ATile::operator new(const std::size_t,EInternal,UObject *,FName,EObjectFlags)'
+[2018.08.25-22.59.25:650][324]CompilerResultsLog:   D:\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(1873): note: while trying to match the argument list '(std::size_t, ATile *)'
+[2018.08.25-22.59.25:650][324]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\My Files\The Documents\Unreal Projects\Maze_3D\Binaries\Win64\UE4Editor-Maze_3D-3643.dll
+[2018.08.25-22.59.25:650][324]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.08.25-22.59.25:651][324]CompilerResultsLog: Total build time: 3.60 seconds (Parallel executor: 0.00 seconds)
+[2018.08.25-22.59.25:651][324]LogMainFrame: MainFrame: Module compiling took 7.961 seconds
+[2018.08.25-22.59.25:651][324]Warning: HotReload failed, recompile failed
+[2018.08.25-23.00.15:115][160]Candidate modules for hot reload:
+[2018.08.25-23.00.15:115][160]  Maze_3D
+[2018.08.25-23.00.15:115][160]Launching UnrealBuildTool... [D:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Maze_3D,9777 Win64 Development -TargetType=Editor -Project="../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Maze_3D.uproject" -canskiplink "D:/My Files/The Documents/Unreal Projects/Maze_3D/Maze_3D.uproject" ]
+[2018.08.25-23.00.17:852][160]Warning: Starting HotReload took  2.8s.
+[2018.08.25-23.00.35:894][311]CompilerResultsLog: New page: Compilation - Aug 25, 2018, 9:00:35 AM
+[2018.08.25-23.00.35:894][311]CompilerResultsLog: Compiling game modules for hot reload
+[2018.08.25-23.00.35:894][311]CompilerResultsLog: Parsing headers for Maze_3DEditor
+[2018.08.25-23.00.35:894][311]CompilerResultsLog:   Running UnrealHeaderTool "D:\My Files\The Documents\Unreal Projects\Maze_3D\Maze_3D.uproject" "D:\My Files\The Documents\Unreal Projects\Maze_3D\Intermediate\Build\Win64\Maze_3DEditor\Development\Maze_3DEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.08.25-23.00.35:894][311]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename D:\My Files\The Documents\Unreal Projects\Maze_3D\Source\Maze_3D\Maze.h!
+[2018.08.25-23.00.35:895][311]CompilerResultsLog: Reflection code generated for Maze_3DEditor in 11.3767098 seconds
+[2018.08.25-23.00.35:895][311]CompilerResultsLog: Building 10 actions with 8 processes...
+[2018.08.25-23.00.35:895][311]CompilerResultsLog:   Maze.cpp
+[2018.08.25-23.00.35:895][311]CompilerResultsLog:    D:\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(1873) : error C2248: 'ATile::ATile': cannot access private member declared in class 'ATile'
+[2018.08.25-23.00.35:895][311]CompilerResultsLog:   d:\my files\the documents\unreal projects\maze_3d\source\maze_3d\Tile.h(12): note: see declaration of 'ATile::ATile'
+[2018.08.25-23.00.35:896][311]CompilerResultsLog:   d:\my files\the documents\unreal projects\maze_3d\source\maze_3d\Maze.h(15): note: see declaration of 'ATile'
+[2018.08.25-23.00.35:896][311]CompilerResultsLog:   D:\My Files\The Documents\Unreal Projects\Maze_3D\Source\Maze_3D\Maze.cpp(111): note: see reference to function template instantiation 'void TArray<ATile,FDefaultAllocator>::EmplaceAt<ATile>(int32,ATile &&)' being compiled
+[2018.08.25-23.00.35:896][311]CompilerResultsLog:   D:\My Files\The Documents\Unreal Projects\Maze_3D\Source\Maze_3D\Maze.cpp(111): note: see reference to function template instantiation 'void TArray<ATile,FDefaultAllocator>::EmplaceAt<ATile>(int32,ATile &&)' being compiled
+[2018.08.25-23.00.35:897][311]CompilerResultsLog:    D:\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(1873) : error C2665: 'ATile::operator new': none of the 2 overloads could convert all the argument types
+[2018.08.25-23.00.35:897][311]CompilerResultsLog:   d:\my files\the documents\unreal projects\maze_3d\source\maze_3d\Tile.h(12): note: could be 'void *ATile::operator new(const std::size_t,EInternal *)'
+[2018.08.25-23.00.35:897][311]CompilerResultsLog:   d:\my files\the documents\unreal projects\maze_3d\source\maze_3d\Tile.h(12): note: or       'void *ATile::operator new(const std::size_t,EInternal,UObject *,FName,EObjectFlags)'
+[2018.08.25-23.00.35:897][311]CompilerResultsLog:   D:\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(1873): note: while trying to match the argument list '(std::size_t, ATile *)'
+[2018.08.25-23.00.35:898][311]CompilerResultsLog:   Maze_3D_GameMode.cpp
+[2018.08.25-23.00.35:898][311]CompilerResultsLog:   Tile.cpp
+[2018.08.25-23.00.35:898][311]CompilerResultsLog:   Maze_3D_GameMode.gen.cpp
+[2018.08.25-23.00.35:898][311]CompilerResultsLog:   Maze.gen.cpp
+[2018.08.25-23.00.35:898][311]CompilerResultsLog:   Elevator.cpp
+[2018.08.25-23.00.35:898][311]CompilerResultsLog:   Tile.gen.cpp
+[2018.08.25-23.00.35:898][311]CompilerResultsLog:   Elevator.gen.cpp
+[2018.08.25-23.00.35:898][311]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\My Files\The Documents\Unreal Projects\Maze_3D\Binaries\Win64\UE4Editor-Maze_3D-9777.dll
+[2018.08.25-23.00.35:899][311]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.08.25-23.00.35:899][311]CompilerResultsLog: Total build time: 16.87 seconds (Parallel executor: 0.00 seconds)
+[2018.08.25-23.00.35:899][311]LogMainFrame: MainFrame: Module compiling took 20.801 seconds
+[2018.08.25-23.00.35:899][311]Warning: HotReload failed, recompile failed
+[2018.08.25-23.05.34:655][146]LogSlate: Window 'Message Log' being destroyed
+[2018.08.25-23.05.34:663][146]LogSlate: Window 'Message Log' being destroyed
+[2018.08.25-23.05.35:560][249]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-23.05.35:785][273]Candidate modules for hot reload:
+[2018.08.25-23.05.35:786][273]  Maze_3D
+[2018.08.25-23.05.35:786][273]Launching UnrealBuildTool... [D:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Maze_3D,7831 Win64 Development -TargetType=Editor -Project="../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Maze_3D.uproject" -canskiplink "D:/My Files/The Documents/Unreal Projects/Maze_3D/Maze_3D.uproject" ]
+[2018.08.25-23.05.38:592][273]Warning: Starting HotReload took  2.8s.
+[2018.08.25-23.05.43:463][854]CompilerResultsLog: New page: Compilation - Aug 25, 2018, 9:05:43 AM
+[2018.08.25-23.05.43:463][854]CompilerResultsLog: Compiling game modules for hot reload
+[2018.08.25-23.05.43:463][854]CompilerResultsLog: Building 3 actions with 8 processes...
+[2018.08.25-23.05.43:463][854]CompilerResultsLog:   Maze.cpp
+[2018.08.25-23.05.43:464][854]CompilerResultsLog:    D:\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(1873) : error C2665: 'ATile::operator new': none of the 2 overloads could convert all the argument types
+[2018.08.25-23.05.43:464][854]CompilerResultsLog:   d:\my files\the documents\unreal projects\maze_3d\source\maze_3d\Tile.h(12): note: could be 'void *ATile::operator new(const std::size_t,EInternal *)'
+[2018.08.25-23.05.43:464][854]CompilerResultsLog:   d:\my files\the documents\unreal projects\maze_3d\source\maze_3d\Tile.h(12): note: or       'void *ATile::operator new(const std::size_t,EInternal,UObject *,FName,EObjectFlags)'
+[2018.08.25-23.05.43:464][854]CompilerResultsLog:   D:\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(1873): note: while trying to match the argument list '(std::size_t, ATile *)'
+[2018.08.25-23.05.43:465][854]CompilerResultsLog:   D:\My Files\The Documents\Unreal Projects\Maze_3D\Source\Maze_3D\Maze.cpp(111): note: see reference to function template instantiation 'void TArray<ATile,FDefaultAllocator>::EmplaceAt<>(int32)' being compiled
+[2018.08.25-23.05.43:465][854]CompilerResultsLog:   D:\My Files\The Documents\Unreal Projects\Maze_3D\Source\Maze_3D\Maze.cpp(111): note: see reference to function template instantiation 'void TArray<ATile,FDefaultAllocator>::EmplaceAt<>(int32)' being compiled
+[2018.08.25-23.05.43:465][854]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\My Files\The Documents\Unreal Projects\Maze_3D\Binaries\Win64\UE4Editor-Maze_3D-7831.dll
+[2018.08.25-23.05.43:466][854]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.08.25-23.05.43:466][854]CompilerResultsLog: Total build time: 3.27 seconds (Parallel executor: 0.00 seconds)
+[2018.08.25-23.05.43:466][854]LogMainFrame: MainFrame: Module compiling took 7.695 seconds
+[2018.08.25-23.05.43:466][854]Warning: HotReload failed, recompile failed
+[2018.08.25-23.07.08:534][379]LogSlate: Window 'Message Log' being destroyed
+[2018.08.25-23.07.08:544][379]LogSlate: Window 'Message Log' being destroyed
+[2018.08.25-23.07.09:309][465]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-23.07.09:520][487]Candidate modules for hot reload:
+[2018.08.25-23.07.09:521][487]  Maze_3D
+[2018.08.25-23.07.09:521][487]Launching UnrealBuildTool... [D:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Maze_3D,2144 Win64 Development -TargetType=Editor -Project="../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Maze_3D.uproject" -canskiplink "D:/My Files/The Documents/Unreal Projects/Maze_3D/Maze_3D.uproject" ]
+[2018.08.25-23.07.12:274][487]Warning: Starting HotReload took  2.8s.
+[2018.08.25-23.07.16:820][ 30]CompilerResultsLog: New page: Compilation - Aug 25, 2018, 9:07:16 AM
+[2018.08.25-23.07.16:821][ 30]CompilerResultsLog: Compiling game modules for hot reload
+[2018.08.25-23.07.16:821][ 30]CompilerResultsLog: Building 3 actions with 8 processes...
+[2018.08.25-23.07.16:821][ 30]CompilerResultsLog:   Maze.cpp
+[2018.08.25-23.07.16:821][ 30]CompilerResultsLog:    D:\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(1873) : error C2248: 'ATile::ATile': cannot access private member declared in class 'ATile'
+[2018.08.25-23.07.16:821][ 30]CompilerResultsLog:   d:\my files\the documents\unreal projects\maze_3d\source\maze_3d\Tile.h(12): note: see declaration of 'ATile::ATile'
+[2018.08.25-23.07.16:822][ 30]CompilerResultsLog:   d:\my files\the documents\unreal projects\maze_3d\source\maze_3d\Maze.h(15): note: see declaration of 'ATile'
+[2018.08.25-23.07.16:822][ 30]CompilerResultsLog:   D:\My Files\The Documents\Unreal Projects\Maze_3D\Source\Maze_3D\Maze.cpp(111): note: see reference to function template instantiation 'void TArray<ATile,FDefaultAllocator>::EmplaceAt<ATile>(int32,ATile &&)' being compiled
+[2018.08.25-23.07.16:822][ 30]CompilerResultsLog:   D:\My Files\The Documents\Unreal Projects\Maze_3D\Source\Maze_3D\Maze.cpp(111): note: see reference to function template instantiation 'void TArray<ATile,FDefaultAllocator>::EmplaceAt<ATile>(int32,ATile &&)' being compiled
+[2018.08.25-23.07.16:823][ 30]CompilerResultsLog:    D:\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(1873) : error C2665: 'ATile::operator new': none of the 2 overloads could convert all the argument types
+[2018.08.25-23.07.16:823][ 30]CompilerResultsLog:   d:\my files\the documents\unreal projects\maze_3d\source\maze_3d\Tile.h(12): note: could be 'void *ATile::operator new(const std::size_t,EInternal *)'
+[2018.08.25-23.07.16:823][ 30]CompilerResultsLog:   d:\my files\the documents\unreal projects\maze_3d\source\maze_3d\Tile.h(12): note: or       'void *ATile::operator new(const std::size_t,EInternal,UObject *,FName,EObjectFlags)'
+[2018.08.25-23.07.16:824][ 30]CompilerResultsLog:   D:\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(1873): note: while trying to match the argument list '(std::size_t, ATile *)'
+[2018.08.25-23.07.16:824][ 30]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\My Files\The Documents\Unreal Projects\Maze_3D\Binaries\Win64\UE4Editor-Maze_3D-2144.dll
+[2018.08.25-23.07.16:824][ 30]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.08.25-23.07.16:824][ 30]CompilerResultsLog: Total build time: 3.42 seconds (Parallel executor: 0.00 seconds)
+[2018.08.25-23.07.16:825][ 30]LogMainFrame: MainFrame: Module compiling took 7.320 seconds
+[2018.08.25-23.07.16:825][ 30]Warning: HotReload failed, recompile failed
+[2018.08.25-23.12.52:059][852]LogSlate: Window 'Message Log' being destroyed
+[2018.08.25-23.12.52:068][852]LogSlate: Window 'Message Log' being destroyed
+[2018.08.25-23.12.52:922][942]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-23.12.53:059][955]Candidate modules for hot reload:
+[2018.08.25-23.12.53:059][955]  Maze_3D
+[2018.08.25-23.12.53:059][955]Launching UnrealBuildTool... [D:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Maze_3D,3432 Win64 Development -TargetType=Editor -Project="../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Maze_3D.uproject" -canskiplink "D:/My Files/The Documents/Unreal Projects/Maze_3D/Maze_3D.uproject" ]
+[2018.08.25-23.12.55:805][955]Warning: Starting HotReload took  2.8s.
+[2018.08.25-23.13.00:083][466]CompilerResultsLog: New page: Compilation - Aug 25, 2018, 9:13:00 AM
+[2018.08.25-23.13.00:083][466]CompilerResultsLog: Compiling game modules for hot reload
+[2018.08.25-23.13.00:083][466]CompilerResultsLog: Building 3 actions with 8 processes...
+[2018.08.25-23.13.00:083][466]CompilerResultsLog:   Maze.cpp
+[2018.08.25-23.13.00:084][466]CompilerResultsLog:    D:\Epic Games\UE_4.20\Engine\Source\Runtime\Core\Public\Containers/Array.h(1873) : error C2664: 'ATile::ATile(ATile &&)': cannot convert argument 1 from 'int' to 'FVTableHelper &'
+[2018.08.25-23.13.00:084][466]CompilerResultsLog:   D:\My Files\The Documents\Unreal Projects\Maze_3D\Source\Maze_3D\Maze.cpp(111): note: see reference to function template instantiation 'void TArray<ATile,FDefaultAllocator>::EmplaceAt<int>(int32,int &&)' being compiled
+[2018.08.25-23.13.00:084][466]CompilerResultsLog:   D:\My Files\The Documents\Unreal Projects\Maze_3D\Source\Maze_3D\Maze.cpp(111): note: see reference to function template instantiation 'void TArray<ATile,FDefaultAllocator>::EmplaceAt<int>(int32,int &&)' being compiled
+[2018.08.25-23.13.00:085][466]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\My Files\The Documents\Unreal Projects\Maze_3D\Binaries\Win64\UE4Editor-Maze_3D-3432.dll
+[2018.08.25-23.13.00:085][466]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2018.08.25-23.13.00:085][466]CompilerResultsLog: Total build time: 3.10 seconds (Parallel executor: 0.00 seconds)
+[2018.08.25-23.13.00:085][466]LogMainFrame: MainFrame: Module compiling took 7.042 seconds
+[2018.08.25-23.13.00:085][466]Warning: HotReload failed, recompile failed
+[2018.08.25-23.13.22:762][169]LogSlate: Window 'Message Log' being destroyed
+[2018.08.25-23.13.22:772][169]LogSlate: Window 'Message Log' being destroyed
+[2018.08.25-23.15.10:367][777]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.08.25-23.15.10:560][777]Candidate modules for hot reload:
+[2018.08.25-23.15.10:560][777]  Maze_3D
+[2018.08.25-23.15.10:560][777]Launching UnrealBuildTool... [D:/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Maze_3D,3255 Win64 Development -TargetType=Editor -Project="../../../../../My Files/The Documents/Unreal Projects/Maze_3D/Maze_3D.uproject" -canskiplink "D:/My Files/The Documents/Unreal Projects/Maze_3D/Maze_3D.uproject" ]
+[2018.08.25-23.15.13:274][777]Warning: Starting HotReload took  2.7s.
+[2018.08.25-23.15.39:883][952]CompilerResultsLog: New page: Compilation - Aug 25, 2018, 9:15:39 AM
+[2018.08.25-23.15.39:883][952]CompilerResultsLog: Compiling game modules for hot reload
+[2018.08.25-23.15.39:883][952]CompilerResultsLog: Parsing headers for Maze_3DEditor
+[2018.08.25-23.15.39:883][952]CompilerResultsLog:   Running UnrealHeaderTool "D:\My Files\The Documents\Unreal Projects\Maze_3D\Maze_3D.uproject" "D:\My Files\The Documents\Unreal Projects\Maze_3D\Intermediate\Build\Win64\Maze_3DEditor\Development\Maze_3DEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.08.25-23.15.39:884][952]CompilerResultsLog: LogCompile: Error: Circular dependency detected for filename D:\My Files\The Documents\Unreal Projects\Maze_3D\Source\Maze_3D\Maze.h!
+[2018.08.25-23.15.39:884][952]CompilerResultsLog: Reflection code generated for Maze_3DEditor in 10.9598038 seconds
+[2018.08.25-23.15.39:884][952]CompilerResultsLog: Building 6 actions with 8 processes...
+[2018.08.25-23.15.39:885][952]CompilerResultsLog:   Maze.gen.cpp
+[2018.08.25-23.15.39:885][952]CompilerResultsLog:   Maze_3D_GameMode.cpp
+[2018.08.25-23.15.39:885][952]CompilerResultsLog:   Maze_3D_GameMode.gen.cpp
+[2018.08.25-23.15.39:885][952]CompilerResultsLog:   Maze.cpp
+[2018.08.25-23.15.39:885][952]CompilerResultsLog:   UE4Editor-Maze_3D-3255.lib
+[2018.08.25-23.15.39:885][952]CompilerResultsLog:      Creating library D:\My Files\The Documents\Unreal Projects\Maze_3D\Intermediate\Build\Win64\UE4Editor\Development\Maze_3D\UE4Editor-Maze_3D-3255.lib and object D:\My Files\The Documents\Unreal Projects\Maze_3D\Intermediate\Build\Win64\UE4Editor\Development\Maze_3D\UE4Editor-Maze_3D-3255.exp
+[2018.08.25-23.15.39:885][952]CompilerResultsLog:   UE4Editor-Maze_3D-3255.dll
+[2018.08.25-23.15.39:886][952]CompilerResultsLog:      Creating library D:\My Files\The Documents\Unreal Projects\Maze_3D\Intermediate\Build\Win64\UE4Editor\Development\Maze_3D\UE4Editor-Maze_3D-3255.suppressed.lib and object D:\My Files\The Documents\Unreal Projects\Maze_3D\Intermediate\Build\Win64\UE4Editor\Development\Maze_3D\UE4Editor-Maze_3D-3255.suppressed.exp
+[2018.08.25-23.15.39:886][952]CompilerResultsLog: Total build time: 25.46 seconds (Parallel executor: 12.70 seconds)
+[2018.08.25-23.15.39:886][952]LogMainFrame: MainFrame: Module compiling took 29.340 seconds
+[2018.08.25-23.15.39:922][952]LogClass: Could not find existing class Maze in package /Script/Maze_3D for HotReload, assuming new class
+[2018.08.25-23.15.39:938][952]LogHotReload: Re-instancing Maze after hot-reload.
+[2018.08.25-23.15.40:067][952]LogContentBrowser: Native class hierarchy updated for 'Maze_3D' in 0.0008 seconds. Added 8 classes and 2 folders.
+[2018.08.25-23.15.40:070][952]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2018.08.25-23.15.40:524][952]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2581 classes and 607 folders.
+[2018.08.25-23.15.40:524][952]Display: HotReload took 30.0s.
+[2018.08.25-23.15.43:853][339]LogTemp: Repeating last play command: Selected Viewport
+[2018.08.25-23.15.43:871][339]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.08.25-23.15.43:871][339]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.08.25-23.15.43:885][339]PIE: New page: PIE session: MainMenu (Aug 25, 2018, 9:15:43 AM)
+[2018.08.25-23.15.43:885][339]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2018.08.25-23.15.43:887][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001374s)
+[2018.08.25-23.15.43:888][339]LogAIModule: Creating AISystem for world MainMenu
+[2018.08.25-23.15.43:888][339]LogPlayLevel: PIE: World Init took: (0.001161s)
+[2018.08.25-23.15.43:888][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.002994s)
+[2018.08.25-23.15.43:960][339]LogInit: XAudio2 using 'VX2370 SERIES (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.08.25-23.15.43:968][339]LogInit: FAudioDevice initialized.
+[2018.08.25-23.15.44:013][339]LogLoad: Game class is 'Maze_3D_MenuMode'
+[2018.08.25-23.15.44:017][339]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.08.25-16.15.44
+[2018.08.25-23.15.44:018][339]LogWorld: Bringing up level for play took: 0.001019
+[2018.08.25-23.15.44:079][339]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2018.08.25-23.15.44:082][339]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainMenu 0.698
+[2018.08.25-23.15.44:083][339]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.08.25-23.15.45:319][476]LogBlueprintUserMessages: [MainMenu_C_0] Hello
+[2018.08.25-23.15.45:320][476]LogNet: Browse: /Game/Maps/Maze
+[2018.08.25-23.15.45:320][476]LogLoad: LoadMap: /Game/Maps/Maze
+[2018.08.25-23.15.46:081][476]LogAIModule: Creating AISystem for world Maze
+[2018.08.25-23.15.46:082][476]LogLoad: Game class is 'Maze_3D_GameMode'
+[2018.08.25-23.15.46:084][476]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Maze.Maze up for play (max tick rate 0) at 2018.08.25-16.15.46
+[2018.08.25-23.15.46:085][476]LogWorld: Bringing up level for play took: 0.001808
